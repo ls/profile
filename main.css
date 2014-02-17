@@ -1,0 +1,49 @@
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica;
+  margin: 0;
+}
+
+header {
+  background-color: #cc3333;
+  height: 150px;
+}
+
+a {
+  color: #cc3333;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.profile-img {
+  background: rgba(0,0,0,.3);
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -75px;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-left: 15px;
+}
